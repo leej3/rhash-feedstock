@@ -15,12 +15,13 @@ source:
     - librhash-osx.patch  # [osx]
 
 build:
-  number: 0
+  number: 1
   skip: true  # [win or not py36]
 
 requirements:
   build:
-    - toolchain
+    - {{ compiler('c') }}
+  host:
     - python
 
 test:
