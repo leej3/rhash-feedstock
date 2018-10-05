@@ -11,7 +11,7 @@ source:
   sha256: 964df972b60569b5cb35ec989ced195ab8ea514fc46a74eab98e86569ffbcf92
 
 build:
-  number: 1000
+  number: 1001
   skip: true  # [win]
 
 requirements:
@@ -22,6 +22,7 @@ test:
   commands:
     - test -f "$PREFIX/include/rhash.h"
     - test -f "$PREFIX/lib/librhash.so.0"  # [linux]
+    - test -f "$PREFIX/lib/librhash.so"  # [linux]
     - test -f "$PREFIX/lib/librhash.0.dylib"  # [osx]
     - rhash --version
 
