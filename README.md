@@ -20,7 +20,21 @@ Current build status
 ====================
 
 
-<table>
+<table><tr>
+    <td>Travis</td>
+    <td>
+      <a href="https://travis-ci.com/conda-forge/rhash-feedstock">
+        <img alt="macOS" src="https://img.shields.io/travis/com/conda-forge/rhash-feedstock/master.svg?label=macOS">
+      </a>
+    </td>
+  </tr><tr>
+    <td>Drone</td>
+    <td>
+      <a href="https://cloud.drone.io/conda-forge/rhash-feedstock">
+        <img alt="linux" src="https://img.shields.io/drone/build/conda-forge/rhash-feedstock/master.svg?label=Linux">
+      </a>
+    </td>
+  </tr>
     
   <tr>
     <td>Azure</td>
@@ -168,5 +182,6 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@isuruf](https://github.com/isuruf/)
 * [@xantares](https://github.com/xantares/)
 
